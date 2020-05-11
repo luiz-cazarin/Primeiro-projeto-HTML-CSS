@@ -1,0 +1,51 @@
+body {
+    /* background: white;  fundo do site */
+  background-image: url("https://www.ecopetit.cat/wpic/mpic/207-2077522_download-wallpaper-beach-clean-sky-skyline-beach-sunset.jpg");
+    /* colocar uma imagem da internet de fundo - copiar o endereco da imagem */
+  bakground-size: auto 100vh; 
+  font-family: Arial; /* mudar a fonte */
+  hight: 100vh;
+  
+}
+
+/*camando a class menu do HTML*/
+
+/* usar o ponto '.' para charmar a class, (usar o # para chamar o id, nao recomenda usar id)*/
+.menu{
+background-color: white;
+
+}
+
+.menu ul {
+display: flex; /* forca a ficar um do lado do outro (elemnetos da <ul> ) */
+justify-content: space-around; /* espaco entre as colunas 'between' 'around' */
+/*combinacao das propriedades - o 'justify-content' so funciona em conjunto com o 'display: flex' */
+}
+
+.menu li {
+list-style: none; /* tirar os . das listas <li> que estao na classe menu */
+}
+
+
+a {
+color: teal;
+font-family: arial black;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline; /* underline '___' nos link ao passar com o mouse em cima*/
+}
+
+/* os dois estao pegando as propriedades*/
+.site-subtitle,
+.site-title {
+color: whitesmoke;
+text-align: center; /* alinhamento no centro */
+}
+
+.site-subtitle {
+font-style: italic;
+}
+
+
+

@@ -7,7 +7,7 @@
 body {
   background-image: url("../img/fundo.jpg");
   background-size: auto auto; 
-  font-family: Arial; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   height: 100vh;
   font-size: 17;
 }
@@ -20,15 +20,16 @@ body {
 
 @media (min-width: 400){
   body {
-    font-size: 14;
+    font-size: 12;
   }
 }
 
 header {
-  height: 100vh;
+  height: 37vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .menu{
@@ -72,16 +73,67 @@ text-align: center;
 
 .site-title {
   font-size: 4em;
+  font-family: 'Roboto', sans-serif;
 }
 
 
 .site-subtitle {
-font-style: italic;
+  font-family: 'Hind', sans-serif;
+  line-height: 1.2em;
 }
 
-.img-portifolio {
-  width: 190px;
-  height: 110px;
-  
+.portfolio {
+  padding: 2em;
+  height: 100vh;
+  color: white;
 }
+
+
+.portfolio h2 {
+  font-family: 'Hind', sans-serif;
+  color: whitesmoke;
+  margin-bottom: 1.5em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.portfolio .grid {
+  display: grid;
+  gap: 2em;
+
+}
+
+@media (min-width: 800px){
+  .portfolio .grid {
+    grid-template-columns: 350px 350px;
+  }
+}
+
+@media (min-width: 1300px){
+  .portfolio .grid {
+    grid-template-columns: repeat(3, 350px);
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 8em - 48px);
+  }
+}
+
+
+.portfolio figure {
+  text-align: center;
+}
+.img-portfolio {
+  height: 230px;
+  width: 350px;
+  object-fit: cover;
+  object-position: left bottom;
+}
+
+
+/* @media (min-width: 1400px){
+  .img-portfolio{
+    height: auto;
+    width: 100%;
+  }
+} */
 

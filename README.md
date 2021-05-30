@@ -1,2 +1,3 @@
 # Primeiro Projeto
-Primeiro site utilizando html e css
+Primeiro projeto utilizando html e css
+https://luiz-cazarin.github.io/Primeiro-projeto-HTML-CSS/
